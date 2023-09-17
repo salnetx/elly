@@ -18,14 +18,14 @@ const Nav = ()=>{
     </div>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}
 
-    <div className="flex-none">
-    <Link href="https://threads.net/100daysofnextjs" className="text-xs font-medium px-4 py-2.5 rounded-xl hover:shadow-sm bg-[#EFD2FF] border border-b-4 border-r-2 border-neutral-700 text-neutral-800 flex gap-1">
-    <span className="flex items-center space-x-2 rounded-md group hover:rounded-full transition">
-    <svg className="animate-pulse" fill="#7850FF" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
-    <span className="font-bold">Explore Apps</span>
+<div className="flex-none">
+    <Link href="https://threads.net/100daysofnextjs" className="text-xs font-medium px-4 py-2.5 rounded-full hover:opacity-100 hover:shadow-sm bg-[#000] text-white flex gap-1">
+    <span className="flex items-center space-x-2 rounded-md group hover:rounded-full transition hover:text-neutral-50/75">
+    <svg fill="white" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.326 18.266l-4.326-2.314-4.326 2.313.863-4.829-3.537-3.399 4.86-.671 2.14-4.415 2.14 4.415 4.86.671-3.537 3.4.863 4.829z"/>
+    </svg>
+    <span>Sign in</span>
     </span>
     </Link>
-    
     </div>
     {/* <hr className="mt-2" /> */}
   </div>
